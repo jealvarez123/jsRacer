@@ -19,12 +19,20 @@ h1 {
   margin: 0 auto;
   border: solid 3px;
 }
-.race_track td {
+.race_track td.mile {
   background-color: black;
   height: 90px;
   width: 64px;
   text-align: center;
 }
+
+.race_track td.mile2{
+  background-color: black;
+  height: 90px;
+  width: 64px;
+  text-align: center;
+}
+
 
 .race_track td.active1 {
   background-color: blue;
