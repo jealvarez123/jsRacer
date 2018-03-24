@@ -36,6 +36,8 @@ h1 {
 
 .race_track td.active1 {
   background-color: blue;
+  height: 90px;
+  width: 64px;
 }
 .race_track td.active2 {
   background-color: red;
