@@ -1,42 +1,33 @@
-/* h1 {
-  text-align: center;
-} */
-
 body {
-  display: block;
-  margin: 8px;
+  background: black;
+  font-family: 'Helvetica', sans-serif;
 }
 
-.track1 {
-  max-width: 800px;
-  margin: 10px auto;
+h1 {
+  text-align: center;
 }
 
-.road1 {
-  float: left;
-  width: 60%;
-  margin-left: 20%;
+.description {
+  height: 80px;
+  width: 500px;
+  margin: 0 auto;
 }
 
-.track2 {
-  max-width: 800px;
-  margin: 10px auto;
+.race_track {
+  width: 1400px;
+  margin: 0 auto;
+  border: solid 3px;
+}
+.race_track td {
+  background-color: black;
+  height: 90px;
+  width: 64px;
+  text-align: center;
 }
 
-.road2 {
-  float: left;
-  width: 60%;
-  margin-left: 20%;
+.race_track td.active1 {
+  background-color: blue;
 }
-
-
-table {
-  margin: auto;
-}
-
-table, tr, td {
-  height: 30px;
-  width: 30px;
-  padding: 10px;
-  border: 2px solid grey;
+.race_track td.active2 {
+  background-color: red;
 }
