@@ -2,10 +2,29 @@
   text-align: center;
 } */
 
-.track {
-  
+body {
+  display: block;
+  margin: 8px;
+}
+
+.track1 {
+  max-width: 800px;
+  margin: 10px auto;
+}
+
+.road1 {
+  float: left;
+  width: 60%;
+  margin-left: 20%;
+}
+
+table {
+  margin: auto;
 }
 
 table, tr, td {
+  height: 30px;
+  width: 30px;
+  padding: 10px;
   border: 1px solid black;
 }
