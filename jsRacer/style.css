@@ -18,6 +18,18 @@ body {
   margin-left: 20%;
 }
 
+.track2 {
+  max-width: 800px;
+  margin: 10px auto;
+}
+
+.road2 {
+  float: left;
+  width: 60%;
+  margin-left: 20%;
+}
+
+
 table {
   margin: auto;
 }
@@ -26,5 +38,5 @@ table, tr, td {
   height: 30px;
   width: 30px;
   padding: 10px;
-  border: 1px solid black;
+  border: 2px solid grey;
 }
