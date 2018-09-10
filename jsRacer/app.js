@@ -1,7 +1,3 @@
-console.log("Can I kick it?");
-
-
-
 // this calls the Container
 let container = document.getElementById("player1_strip");
 
@@ -14,7 +10,6 @@ let active1 =
 document.getElementById('active1')
 console.log(active1);
 
-
 // this calls the class
 // let line1 = Container.getElementsByClassName();
 //
@@ -24,8 +19,6 @@ console.log(active1);
 // for (var i = 0; i < player1_strip.length; i++) {
 //   let move1 =
 // }
-
-
 
 // this replaces the mile tables with active1
 // for (var i = 0; i < line1.length; i++) {
@@ -56,9 +49,6 @@ console.log(active1);
 //     this.className += " active2";
 //   });
 // }
-
-
-
 
 // document.addEventListener('keydown', (key1) => {
 //
