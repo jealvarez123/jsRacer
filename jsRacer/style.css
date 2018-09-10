@@ -19,26 +19,27 @@ h1 {
   margin: 0 auto;
   border: solid 3px;
 }
-.race_track td.mile {
+.race_track td {
   background-color: black;
   height: 90px;
   width: 64px;
   text-align: center;
 }
 
-.race_track td.mile2{
+.race_track td{
   background-color: black;
   height: 90px;
   width: 64px;
   text-align: center;
 }
 
-
-.race_track td.active1 {
+#active1 {
   background-color: blue;
   height: 90px;
   width: 64px;
 }
-.race_track td.active2 {
+#player2_strip {
   background-color: red;
+  height: 90px;
+  width: 64px;
 }
